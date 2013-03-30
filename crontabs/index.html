@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Crontabs | Timely management for your Chrome Tabs</title>
+    <link rel="stylesheet" href="css/aui-all.css" media="all">
+    <link rel="stylesheet" href="css/crontabs.css" media="all">
+</head>
+<body class="aui-layout aui-theme-default aui-page-fixed">
+    <div id="page">
+        <header id="header" role="banner">
+            <nav class="aui-header" role="navigation">
+                <div class="aui-header-inner">
+                    <div class="aui-header-primary">
+                        <ul class="aui-nav">
+                            <li><a href="http://bitbucket.org/edave/crontabs">Source on Bitbucket</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section id="content" role="main">
+            <header class="aui-page-header">
+                <div class="aui-page-header">
+                    <div class="aui-page-header-inner crontabs-header">
+                        <h1>Crontabs</h1>
+                        <h2>Easy Tab Scheduling for Chrome</h2>
+                    </div>
+                </div>
+            </header>
+            <div class="aui-page-panel">
+                <div class="aui-page-panel-inner">
+                    <section class="aui-page-panel-content">
+                        <h2>Setting up Crontabs</h2>
+                        <p>After installing crontabs, right-click on the crontabs icon and choose Options.</p>
+                        <img src="images/options.png">
+                        <h2>Scheduling with Cron Expressions</h2>
+                        <p>
+                            With crontabs you can easily schedule an operation on a tab with a cron expression. By default there will be an empty Cron Expression for each Tab.
+                        </p>
+                        <h3>Open your wallboard at 8.00am on Weekdays</h3>
+                        <img src="images/cron-1.png">
+                        
+                        <h3>Open a tab at 8.00am and close it at 8.30am.</h3>
+                        <img src="images/cron-3.png">
+
+                        <h3>Cycle between two tabs on weekdays</h3>
+                        <img src="images/cron-2.png">
+                        
+                        <h2>Scheduling with Text Expressions</h2>
+                        <p>Crontabs is powered by <a href="https://github.com/bunkat/later">laterjs</a> which also supports a <a href="https://github.com/bunkat/later#creating-schedules-using-text-expression">textual scheduling format</a> which supports <a href="https://github.com/bunkat/later#composite-schedules">composite schedules</a>.</p>
+                        <p>Click Add Text Expression to add one to your tab.</p>
+                        <h3>Show and Reload a tab every 5 minutes on weekdays</h3>
+                        <img src="images/text-1.png">
+
+                        <h2>Supported Operations</h2>
+                        <p>
+                            <ul>
+                                <li>Show (Activates or Creates a tab)</li>
+                                <li>Close (Closes a tab if it exists)</li>
+                                <li>Reload (Reloads a tab if it exists)</li>
+                                <li>Show and Reload (Activates a tab which exists and Reloads it, else creates and Activates it)</li>
+                            </ul>
+                        </p>
+
+                        <h2>Source</h2>
+                        <p>Crontabs is open source. Feel free to check it out at <a href="http://bitbucket.org/edave/crontabs">http://bitbucket.org/edave/crontabs</a>. Pull requests welcome.</p>
+
+                        <h2>License</h2>
+                        <p>Crontabs is licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache 2.0 License</a>.</p>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+
+</body>
+</html>

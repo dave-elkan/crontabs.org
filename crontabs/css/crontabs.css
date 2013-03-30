@@ -1,0 +1,23 @@
+.crontabs-header {
+    background: transparent url('../images/crontabs_128.png') no-repeat;
+    padding-left: 115px;
+}
+
+.crontabs-header h1 {
+    font-size: 3em;
+}
+
+.crontabs-header h2 {
+    font-size: 1.75em;
+}
+
+.aui-page-panel-content h2 {
+    font-size: 2em;
+}
+
+section img {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin: 2em;
+    margin-bottom: 0
+}
